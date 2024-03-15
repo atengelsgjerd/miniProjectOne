@@ -121,8 +121,54 @@ li {
 section  {
   background-image: none;
 }
-
-@media screen and (max-width:907px){
+.rowTwo .grid {
+  width: 250px;
+  height: 225px;
+  background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6)100%);
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  padding-left: 5px;
+  letter-spacing: 2px;
+  line-height: 1.25em;
+  font-size: 12px;
+}
+.rowTwo .linGrid {
+  width: 250px;
+  height: 225px;
+  background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6)100%);
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  padding-left: 5px;
+  letter-spacing: 2px;
+  line-height: 1.25em;
+  font-size: 12px;
+}
+.rowTwo .specialGrid {
+  position: relative;
+  top: 45px;
+  width: 250px;
+  height: 150;
+  background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6)100%);
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  padding-left: 5px;
+  letter-spacing: 2px;
+  line-height: 1.25em;
+  font-size: 12px;
+}
+#lastParagraph {
+  position: relative;
+  margin-bottom: 0;
+  top: 40px;
+  padding: 10px 0 0 10px;
+  color: rgb(223, 56, 223);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+@media screen and (max-width:923px){
   #linear {
     width: 275px;
     height: 250px;
@@ -130,6 +176,9 @@ section  {
   #grid {
     width: 275px;
     height: 250px;
+  }
+  .rowTwo .linGrid {
+    height: 175px;
   }
 }
 
@@ -155,6 +204,7 @@ section  {
 
   }
 }
+
 
 
 

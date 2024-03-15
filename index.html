@@ -55,16 +55,45 @@
         <header>
             <h2>Linear Gradients</h2>
         </header>
+        <p>This will create a background linear gradient from top to bottom.</p>
+        <ul class="linGrid">
+            <li>.linear-gradient-background {</li>
+            <li class="indent">background-image: linear-gradient(</li>
+            <li class="indent">rgba(232, 102, 236, 0.3) 0%,</li>
+            <li class="indent">rgba(232, 102, 236, 0.6) 100%</li>
+            <li class="indent">);</li>
+            <li>}</li>
+            </ul>
     </section>
     <section class="rowTwo" id="box">
         <header>
             <h2>Box Transition Glow</h2>
         </header>
+        <p>Use transition and box shadows to glow on hover.</p>
+        <ul class="grid">
+            <li>.code-card .card-header {</li>
+            <li class="indent">border-radius: 8px;</li>
+            <li class="indent">transition: all 0.5s ease-in-out;</li>
+            <li>}</li>
+            <li>.code-card:hover,</li>
+            <li>.code-card:hover .card-header {</li>
+            <li class="indent">box-shadow: inset 0px 0px 8px rgba(232, 102, 236,</li>
+            <li>1), 0 0 15px rgba(232, 102, 236, 1);</li>
+            <li>}</li>
+            </ul>
     </section>
     <section class="rowTwo" id="overlay">
         <header>
             <h2 class="special">Overlay Card with Title</h2>
         </header>
+        <p id="lastParagraph">Use position properties and negative margins to raise elements higher than their natural
+            starting point.</p>
+        <ul class="specialGrid">
+            <li>.card-header {</li>
+            <li class="indent">position: relative;</li>
+            <li class="indent">margin-top: -20px;</li>
+            <li>}</li>
+            </ul>
     </section>
 </div>
 </body>
