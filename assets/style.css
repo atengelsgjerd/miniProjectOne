@@ -1,0 +1,160 @@
+* {
+  background-color: rgb(51, 55, 66);
+}
+html {
+  height: 100%;
+}
+header {
+  text-align: center;
+  flex-wrap: wrap;
+}
+header h1 {
+  color: rgb(223, 56, 223);
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+header p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+body {
+  height: 100%;
+}
+div {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  margin: 10px;
+  width: 275px;
+  height: 200px;
+  flex-wrap: wrap;
+  border: 1px dashed white;
+}
+.rowTwo {
+  position: relative;
+  margin: 10px;
+  width: 275px;
+  height: 350px;
+  flex-wrap: wrap;
+  border: 1px dashed white;
+}
+
+header h2 {
+  position: absolute;
+  border: solid white 1px;
+  margin-top: -10px;
+  margin-left: 10px;
+  Padding-left: 2px;
+  height: 30px;
+  width:  250px;
+  text-align: start;
+  color: rgb(223, 56, 223);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+ 
+header .special {
+  position: absolute;
+  border: solid white 1px;
+  margin-top: -10px;
+  margin-left: 10px;
+  Padding-left: 2px;
+  height: 55px;
+  width:  250px;
+  text-align: start;
+  color: rgb(223, 56, 223);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+section p {
+  margin-bottom: 0;
+  padding: 10px 0 0 10px;
+  color: rgb(223, 56, 223);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.row ul {
+  width: 250px;
+  height: 110px;
+  background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6)100%);
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  padding-left: 5px;
+  letter-spacing: 2px;
+  line-height: 1.25em;
+  font-size: 12px;
+}
+.row .grid {
+  width: 250px;
+  height: 130px;
+  background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6)100%);
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  padding-left: 5px;
+  letter-spacing: 2px;
+  line-height: 1.25em;
+  font-size: 12px;
+}
+li {
+  padding-top: 5px;
+  padding-left: 2px;
+  list-style-type: none;
+  background-color: transparent;
+  font-size: 12px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.indent {
+
+
+  margin-left: 5%;
+}
+
+section  {
+  background-image: none;
+}
+
+@media screen and (max-width:907px){
+  #linear {
+    width: 275px;
+    height: 250px;
+  }
+  #grid {
+    width: 275px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width:609px){
+  .row {
+    width: 100%;
+    height: 200px;
+  }
+  .rowTwo {
+    width: 100%;
+    height: 200px;
+  }
+  #grid {
+    width: 100%;
+    height: 200px;
+  }
+  #linear {
+    width: 100%;
+    height: 200px;
+  }
+  section .code {
+    width: 94%;
+
+  }
+}
+
+
+
